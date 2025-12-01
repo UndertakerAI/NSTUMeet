@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NSTUMeet</title>
+    </head>
+    <body>
+        <!-- header
+        TODO: create style for header
+        -->
+        <div class="header">
+            <ul>
+                <li>
+                    <a href="/home/undertaker/project/NSTUMeet/NSTUMeet/templates/main.html">Главная</a>
+                </li>
+                <li>
+                    <a href="/home/undertaker/project/NSTUMeet/NSTUMeet/templates/affiche.html">Афиша</a>
+                </li>
+                <li>
+                    <a href="/home/undertaker/project/NSTUMeet/NSTUMeet/templates/profile.html">Профиль</a>
+                </li>
+                <!-- TODO: create personal style for button "create event"-->
+                <li>
+                    <a href="/home/undertaker/project/NSTUMeet/NSTUMeet/templates/create_event.html">Создать мероприятие</a>
+                </li>
+            </ul>
+        </div>
+        <!-- main content in page-->
+        <div>
+            <h1>Создать мероприятие</h1>
+            <!--
+            event's photo
+            event's name
+            event's description
+            event's data and time
+            event's price
+            event's count of people
+            event's unterests (will be selected in list)
+            button for create event
+            events attended
+            -->
+            <form>
+                <input type="text", name="photoupload", placeholder="загрузите фото", required>
+            </form>
+            <form>
+                <input type="text", name="eventname", placeholder="название мероприятия", required>
+            </form>
+            <form>
+                <input type="text", name="eventdescription", placeholder="описание мероприятие", required>
+            </form>
+            <form>
+                <input type="text", name="eventdata", placeholder="дата и время мероприятия", required>
+            </form>
+            <form>
+                <input type="text", name="eventprice", placeholder="стоимость", required>
+            </form>
+            <form>
+                <input type="text", name="eventpeoplecnt", placeholder="количество людей", required>
+            </form>
+            <form>
+                <input type="text", name="eventinterest", placeholder="интересы", required>
+            </form>
+            <button>Создать мероприятие</button>
+        </div>
+        <footer>
+            <!-- <p>Sponsored by WebLuxury</p> -->
+             <p>NSTUMeet</p>
+        </footer>
+    </body>
+</html>
